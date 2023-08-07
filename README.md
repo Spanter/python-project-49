@@ -4,12 +4,12 @@
 
 
 ### run brain-even
-[![asciicast](https://asciinema.org/a/KUr5Zd8mnKCuL0QwTVKyuWKbS.svg)](https://asciinema.org/a/KUr5Zd8mnKCuL0QwTVKyuWKbS)
+[![asciicast](https://asciinema.org/a/qKZsCeMI2HxEhX8ikJgyXDJ90.svg)](https://asciinema.org/a/qKZsCeMI2HxEhX8ikJgyXDJ90)
 
 
 ### run brain-calc
-[![asciicast](https://asciinema.org/a/jxXnum5LDlxkIREcwK678yAfe.svg)](https://asciinema.org/a/jxXnum5LDlxkIREcwK678yAfe)
+[![asciicast](https://asciinema.org/a/BsJINFIGwWvmJoiACndwAQ8rY.svg)](https://asciinema.org/a/BsJINFIGwWvmJoiACndwAQ8rY)
 
 
 ### run brain-gcd
-[![asciicast](https://asciinema.org/a/dKqxVrhlGHDL0x5pIp780Fs9c.svg)](https://asciinema.org/a/dKqxVrhlGHDL0x5pIp780Fs9c)
+[![asciicast](https://asciinema.org/a/VJtv3Jg3GoRkoUbrW2COkUPHw.svg)](https://asciinema.org/a/VJtv3Jg3GoRkoUbrW2COkUPHw)
