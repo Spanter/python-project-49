@@ -13,3 +13,6 @@
 
 ### run brain-gcd
 [![asciicast](https://asciinema.org/a/VJtv3Jg3GoRkoUbrW2COkUPHw.svg)](https://asciinema.org/a/VJtv3Jg3GoRkoUbrW2COkUPHw)
+
+### run brain-progrerssion
+[![asciicast](https://asciinema.org/a/ds5YJDT0Z1nHtgtr22eNiHfIB.svg)](https://asciinema.org/a/ds5YJDT0Z1nHtgtr22eNiHfIB)

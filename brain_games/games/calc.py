@@ -6,7 +6,7 @@ MAX_NUMBER = 50
 OPERATIONS = ('+', '-', '*')
 
 
-def generation_value():
+def generation_game():
     first_num = random.randint(MIN_NUMBER, MAX_NUMBER)
     second_num = random.randint(MIN_NUMBER, MAX_NUMBER)
     oper = random.choice(OPERATIONS)

@@ -7,7 +7,7 @@ def get_start_game(game):
     print(f'Hello, {name}!')
     print(game.DESCRIPTION)
     for correct_answer in range(3):
-        question, correct_answer = game.generation_value()
+        question, correct_answer = game.generation_game()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ').lower()
         if correct_answer == user_answer:

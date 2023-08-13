@@ -7,7 +7,7 @@ MIN_NUMBER = 1
 MAX_NUMBER = 100
 
 
-def generation_value():
+def generation_game():
     first_num = random.randint(MIN_NUMBER, MAX_NUMBER)
     second_num = random.randint(MIN_NUMBER, MAX_NUMBER)
     question = f'{first_num} {second_num}'
