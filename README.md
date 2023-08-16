@@ -16,3 +16,6 @@
 
 ### run brain-progrerssion
 [![asciicast](https://asciinema.org/a/ds5YJDT0Z1nHtgtr22eNiHfIB.svg)](https://asciinema.org/a/ds5YJDT0Z1nHtgtr22eNiHfIB)
+
+### run brain-prime
+[![asciicast](https://asciinema.org/a/ppbXKnEykcQ72OeQ3x1HTePRl.svg)](https://asciinema.org/a/ppbXKnEykcQ72OeQ3x1HTePRl)
