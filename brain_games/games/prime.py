@@ -5,6 +5,9 @@ MIN_NUMBER = 1
 MAX_NUMBER = 100
 
 
+def is_prime(number):
+    
+
 def generation_game():
     question = random.randint(MIN_NUMBER, MAX_NUMBER)
     counter = 1

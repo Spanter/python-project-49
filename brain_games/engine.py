@@ -1,12 +1,14 @@
 import prompt
 
+NUMBER_CORRECT_ANSWER = 3
 
-def get_start_game(game):
+
+def start_game(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ').capitalize()
     print(f'Hello, {name}!')
     print(game.DESCRIPTION)
-    for correct_answer in range(3):
+    for correct_answer in range(NUMBER_CORRECT_ANSWER):
         question, correct_answer = game.generation_game()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ').lower()
