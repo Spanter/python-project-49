@@ -1,10 +1,16 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "This is the Hexlet project of Brain Games with 5 different games"
+authors = ["Maksim Ivanchenko <spanter.1991@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/Spanter/python-project-49"
 packages = [{include = "brain_games"}]
+classifiers = [
+    "Topic :: Game Worlds :: Software Development",
+    "Operating System :: Ubuntu :: Linux",
+    "Programming Language :: Python :: Ver 3"
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"

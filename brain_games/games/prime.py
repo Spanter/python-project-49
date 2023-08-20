@@ -6,13 +6,13 @@ MAX_NUMBER = 100
 
 
 def is_prime(number):
-    
+    for i in range(2, number):
+        if number % i == 0:
+            return False
+    return True
+
 
 def generation_game():
     question = random.randint(MIN_NUMBER, MAX_NUMBER)
-    counter = 1
-    for i in range(2, question // 2 + 1):
-        if question % i == 0:
-            counter += 1
-    correct_answer = 'yes' if counter <= 1 else 'no'
+    correct_answer = 'yes' if is_prime(question) else 'no'
     return question, correct_answer
