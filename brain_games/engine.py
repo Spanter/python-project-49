@@ -5,7 +5,7 @@ NUMBER_CORRECT_ANSWER = 3
 
 def start_game(game):
     print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ').capitalize()
+    name = prompt.string('May I have you name? ').capitalize()
     print(f'Hello, {name}!')
     print(game.DESCRIPTION)
     for correct_answer in range(NUMBER_CORRECT_ANSWER):
