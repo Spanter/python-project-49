@@ -6,8 +6,7 @@ MAX_NUMBER = 50
 
 
 def is_even(number):
-    number = True if number % 2 == 0 else False
-    return number
+    return True if number % 2 == 0 else False
 
 
 def generation_game():
