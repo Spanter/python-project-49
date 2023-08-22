@@ -8,7 +8,7 @@ MIN_LENGTH, MAX_LENGTH = 5, 10
 
 def create_progression(sequence, step, length):
     list_progression = []
-    for element in range(1, length):
+    for element in range(0, length):
         list_progression.append(str(sequence + element * step))
     return list_progression
 
