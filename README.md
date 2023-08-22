@@ -2,44 +2,44 @@
 [![Actions Status](https://github.com/Spanter/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Spanter/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/cf3f765c65298ecbc9a1/maintainability)](https://codeclimate.com/github/Spanter/python-project-49/maintainability)
 
-# Доброе пожаловать в Brain-Games!
+# Wolcome to the Brain-Games!
 
-## Установка:
+## Install:
 
-Для установки пакета brain-games, необходимо ввести комманду в терминале:\
+To install the brain-games package, you need to enter the command in the terminal:\
 `git clone https://github.com/Spanter/python-project-49.git`\
-Далее перейти в дирректорию и ввести комманду установки:\
+Then go to the directory and enter the installation command:\
 `cd python-project-49/`\
 `make package-install`  
 
-## Описание
+## Description
 
-Вам доступно 5 игр. Для запуска, необходимо ввести название любой игры. Игра продемонстрирует приветствие и запросит ввести ваше имя. Далее, в зависмости от игры, вы увидите задание которое необходимо вам сделать. В случае трех правильных ответов, игра вас поздравит и завершит выполнение программы. В случае неверного ответа - игра завершится и укажет правильный ответ. После чего предложит пройти игру заново. Для повторения игры, необходимо будет ввести заново названия игры.
+You have 5 games available. To start, you must enter the name of any game. The game will display a greeting and ask you to enter your name. Further, depending on the game, you will see the task that you need to do. In case of three correct answers, the game will congratulate you and complete the program. In case of an incorrect answer, the game will end and indicate the correct answer. Then you will be prompted to play the game again. To repeat the game, you will need to re-enter the name of the game.
 
-## Имеются следующие игры:
+## The following games are available:
 ### 1. brain-even
 
-Игра **Проверка на четность**. Игра показывает случайное число. Необходимо ответить *yes* если число четное и *no* если нет.
+Game **Even Check**. The game shows a random number. You must answer *yes* if the number is even and *no* if not.
 [![asciicast](https://asciinema.org/a/qKZsCeMI2HxEhX8ikJgyXDJ90.svg)](https://asciinema.org/a/qKZsCeMI2HxEhX8ikJgyXDJ90)
 
 ### 2. brain-calc
 
-Игра **Калькулятор**. Вам показывается любое математическое выражение. Необходимо вычислить и записать верный ответ.
+Game **Calculator**. You are shown any mathematical expression. You need to calculate and write the correct answer.
 [![asciicast](https://asciinema.org/a/BsJINFIGwWvmJoiACndwAQ8rY.svg)](https://asciinema.org/a/BsJINFIGwWvmJoiACndwAQ8rY)
 
 
 ### 3. brain-gcd
 
-Игра **НОД**. Вам показываются любые 2 числа. Необхоимо указать наибольший общий делитель данных чисел.
+Game **Greatest Common Divisor**. You are shown any 2 numbers. You must specify the greatest common divisor of these numbers.
 
 [![asciicast](https://asciinema.org/a/VJtv3Jg3GoRkoUbrW2COkUPHw.svg)](https://asciinema.org/a/VJtv3Jg3GoRkoUbrW2COkUPHw)
 
 ### 4. brain-progrerssion
 
-Игра **Арифметическая прогрессия** Показывается список чисел. Одно из чисел пропущено. Необходимо определить пропущенное число и записать.
+Game **Arithmetic progression** A list of numbers is displayed. One of the numbers is missing. It is necessary to determine the missing number and write it.
 [![asciicast](https://asciinema.org/a/ds5YJDT0Z1nHtgtr22eNiHfIB.svg)](https://asciinema.org/a/ds5YJDT0Z1nHtgtr22eNiHfIB)
 
 ### 5. brain-prime
 
-Игра **Простое число**. Вам показывает любое число. Нужно ответить *yes* если число простое или *no* если нет.
+Game **Prime number**. Shows you any number. You must answer *yes* if the number is prime or *no* if not.
 [![asciicast](https://asciinema.org/a/ppbXKnEykcQ72OeQ3x1HTePRl.svg)](https://asciinema.org/a/ppbXKnEykcQ72OeQ3x1HTePRl)
