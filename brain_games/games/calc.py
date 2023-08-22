@@ -1,12 +1,11 @@
 import random
 
 DESCRIPTION = 'What is the result of the expression?'
-MIN_NUMBER = 1
-MAX_NUMBER = 50
+MIN_NUMBER, MAX_NUMBER = 1, 50
 OPERATIONS = ('+', '-', '*')
 
 
-def generation_game():
+def generate_round():
     first_num = random.randint(MIN_NUMBER, MAX_NUMBER)
     second_num = random.randint(MIN_NUMBER, MAX_NUMBER)
     oper = random.choice(OPERATIONS)

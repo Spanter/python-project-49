@@ -13,7 +13,7 @@ def create_progression(sequence, step, length):
     return list_progression
 
 
-def generation_game():
+def generate_round():
     sequence = random.randint(MIN_NUMBER, MAX_NUMBER)
     step = random.randint(MIN_STEP, MAX_STEP)
     length = random.randint(MIN_LENGTH, MAX_LENGTH)
