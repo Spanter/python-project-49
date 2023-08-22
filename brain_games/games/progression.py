@@ -6,18 +6,18 @@ MIN_STEP, MAX_STEP = 1, 9
 MIN_LENGTH, MAX_LENGTH = 5, 10
 
 
-def is_progression(sequence, step, length):
-    generate_list = []
-    for index in range(length):
-        generate_list.append(str(sequence + index * step))
-    return generate_list
+def create_progression(sequence, step, length):
+    list_progression = []
+    for element in range(1, length):
+        list_progression.append(str(sequence + element * step))
+    return list_progression
 
 
 def generation_game():
     sequence = random.randint(MIN_NUMBER, MAX_NUMBER)
     step = random.randint(MIN_STEP, MAX_STEP)
     length = random.randint(MIN_LENGTH, MAX_LENGTH)
-    question_list = is_progression(sequence, step, length)
+    question_list = create_progression(sequence, step, length)
     hide_index = random.randint(0, len(question_list) - 1)
     correct_answer = question_list[hide_index]
     question_list[hide_index] = '..'
