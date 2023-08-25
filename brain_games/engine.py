@@ -1,6 +1,6 @@
 import prompt
 
-SOMETHING_COUNT = 3
+ROUND_COUNTER = 3
 
 
 def start_game(game):
@@ -8,7 +8,7 @@ def start_game(game):
     name = prompt.string('May I have your name? ').capitalize()
     print(f'Hello, {name}!')
     print(game.DESCRIPTION)
-    for correct_answer in range(SOMETHING_COUNT):
+    for correct_answer in range(ROUND_COUNTER):
         question, correct_answer = game.generate_round()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ').lower()

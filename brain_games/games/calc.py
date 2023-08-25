@@ -8,15 +8,15 @@ OPERATIONS = ('+', '-', '*')
 def generate_round():
     first_num = random.randint(MIN_NUMBER, MAX_NUMBER)
     second_num = random.randint(MIN_NUMBER, MAX_NUMBER)
-    oper = random.choice(OPERATIONS)
-    question = f'{first_num} {oper} {second_num}'
-    match oper:
+    operation = random.choice(OPERATIONS)
+    question = f'{first_num} {operation} {second_num}'
+    match operation:
         case '+':
             correct_answer = first_num + second_num
-            return str(question), str(correct_answer)
+            return question, correct_answer
         case '-':
             correct_answer = first_num - second_num
-            return str(question), str(correct_answer)
+            return question, correct_answer
         case '*':
             correct_answer = first_num * second_num
-            return str(question), str(correct_answer)
+            return question, correct_answer

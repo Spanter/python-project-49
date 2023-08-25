@@ -11,4 +11,4 @@ def generate_round():
     second_num = random.randint(MIN_NUMBER, MAX_NUMBER)
     question = f'{first_num} {second_num}'
     correct_answer = math.gcd(first_num, second_num)
-    return str(question), str(correct_answer)
+    return question, correct_answer
