@@ -13,10 +13,10 @@ def generate_round():
     match operation:
         case '+':
             correct_answer = first_num + second_num
-            return question, correct_answer
+            return question, str(correct_answer)
         case '-':
             correct_answer = first_num - second_num
-            return question, correct_answer
+            return question, str(correct_answer)
         case '*':
             correct_answer = first_num * second_num
-            return question, correct_answer
+            return question, str(correct_answer)
